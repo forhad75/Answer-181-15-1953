@@ -1,0 +1,95 @@
+@media only screen and  (max-width: 1024px){
+    .mobile-menu span{
+        display: block;
+    }
+    .row{
+        margin: 0 15px;
+        max-width: 108rem;
+    }
+    .main-nav{
+        display: none;
+    }
+    html{
+        font-size: 57.5%;
+    }
+    .client-photo{
+        width: 100%;
+        float: none;
+        text-align: center;
+    }
+    .client-review{
+        width: 100%;
+        font: none;
+        text-align: center;
+    }
+    .contact-section form{
+        width: 100%;
+        margin-left: 0;
+    }
+    .box {
+        padding: 0;
+    }
+    .hero-text-box {
+        width: 90%;
+    }  
+}
+
+@media only screen and  (max-width: 980px){
+    .span_1_of_4{
+        width: 49.2%;
+    }
+    .span_1_of_4:nth-child(3){
+        margin-left: 0;
+    }
+    html{
+        font-size: 62.5%;
+    }
+    .row{
+        margin: 0 30px;
+        max-width: 93rem;
+    }
+    .social-link{
+        margin-top: 0;
+    }
+    .team-section .pg{
+        height: 8rem;
+    }
+    .footer-section li a{
+        font-size: 2rem;
+    }
+    .footer-section li {
+        margin: 0 1rem;
+    }
+    h1 {
+        font-size: 2.5rem;
+    }
+    .testimonial .col:nth-child(3), .testimonial .col:nth-child(4) {
+        margin-top: 6rem;
+    }
+    .client-photo img {
+        margin-bottom: 2rem;
+    }
+    .little-description {
+        width: 86%;
+        margin-left: 7%;
+    }
+    h2 {
+        font-size: 3rem;
+    }
+    h4{
+        margin-top: 1.5rem;
+    }
+    .portfolio-image {
+        margin-top: 2rem;
+    }
+    .hero-text-box {
+        top: 60%;
+    }
+}
+@media only screen and  (max-width: 768px){
+}
+@media only screen and  (max-width: 480px){
+    .span_1_of_4{
+        width: 100%;
+    }
+}
